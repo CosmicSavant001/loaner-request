@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Set the following values on the form:
+End date = 2026-11-07 00:00:00</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 02:41:30</sys_created_on>
+        <sys_id>a7dff05fcc9013107f446411f31489e4</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">5821862ce80013107f44701a19dd1384</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">5821862ce80013107f44701a19dd1384</sys_scope>
+        <sys_update_name>sys_atf_step_a7dff05fcc9013107f446411f31489e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 04:20:44</sys_updated_on>
+        <table>x_cdltd_loaner_r_0_loaner_request</table>
+        <test display_value="My First Loaner Request ATF Test">601eb89bcc9013107f446411f31489c9</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a7dff05fcc9013107f446411f31489e4"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a7dff05fcc9013107f446411f31489e4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 02:41:30</sys_created_on>
+        <sys_id>a490859fcc9013107f446411f31489b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 02:41:30</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a7dff05fcc9013107f446411f31489e4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 02:41:30</sys_created_on>
+        <sys_id>e890859fcc9013107f446411f31489b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 02:41:30</sys_updated_on>
+        <value>x_cdltd_loaner_r_0_loaner_request</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a7dff05fcc9013107f446411f31489e4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 02:41:30</sys_created_on>
+        <sys_id>ec90859fcc9013107f446411f31489b2</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 04:20:44</sys_updated_on>
+        <value>end_dat0=2026-11-07 00:00:00^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=a7dff05fcc9013107f446411f31489e4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">5821862ce80013107f44701a19dd1384</application>
+        <file_path/>
+        <instance_id>fa0de67083dcd3147ecabd126daad373</instance_id>
+        <instance_name>nowlearning-nlinst04820498-3d29c-0001</instance_name>
+        <name>sys_atf_step_a7dff05fcc9013107f446411f31489e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Set the following values on the form:
+End date = 2026-11-07 00:00:00</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-07 02:41:30</sys_created_on><sys_id>a7dff05fcc9013107f446411f31489e4</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">5821862ce80013107f44701a19dd1384</sys_package><sys_policy/><sys_scope display_value="Loaner Request">5821862ce80013107f44701a19dd1384</sys_scope><sys_update_name>sys_atf_step_a7dff05fcc9013107f446411f31489e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-07 04:20:44</sys_updated_on><table>x_cdltd_loaner_r_0_loaner_request</table><test display_value="My First Loaner Request ATF Test">601eb89bcc9013107f446411f31489c9</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a7dff05fcc9013107f446411f31489e4"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a7dff05fcc9013107f446411f31489e4</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-07 02:41:30</sys_created_on><sys_id>a490859fcc9013107f446411f31489b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-07 02:41:30</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a7dff05fcc9013107f446411f31489e4</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-07 02:41:30</sys_created_on><sys_id>e890859fcc9013107f446411f31489b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-07 02:41:30</sys_updated_on><value>x_cdltd_loaner_r_0_loaner_request</value><variable display_value="Table">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a7dff05fcc9013107f446411f31489e4</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-07 02:41:30</sys_created_on><sys_id>ec90859fcc9013107f446411f31489b2</sys_id><sys_mod_count>9</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-07 04:20:44</sys_updated_on><value>end_dat0=2026-11-07 00:00:00^EQ</value><variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=a7dff05fcc9013107f446411f31489e4"/></record_update>]]></payload>
+        <payload_hash>-25534928</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>9673f85bcc5013107f446411f3148969</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 04:20:44</sys_created_on>
+        <sys_id>42479557cc5413107f446411f314894c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1b43cc6c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 04:20:44</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>4647955738541310a16d520067ab244b</update_guid>
+        <update_guid_history>4647955738541310a16d520067ab244b:-25534928,de865dd31254131086620e714e373c0e:776066308,81c5959326541310c0a9fa9e78e9d36d:1143967577,19b555933e54131008d8d6d5d9c89a2d:1165171001,cde41d139f5413105917f86ca4cc02bd:1313047991,f6d4d91377541310941bb1220a52b8a1:-1151219019,f050151bae14131060f981b114c31894:2143477189,3748c51bc8d01310138f85ff607b6407:-502653405,20a6851be7d01310c7b0c95b8fb93e7d:950962978,ec90099f38901310eaba0f44a29eec74:-1755489871</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-07 04:24:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>7b0848ecc66446baa4a5b186d2861224</sys_id>
+        <sys_metadata>a7dff05fcc9013107f446411f31489e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_r_0">5821862ce80013107f44701a19dd1384</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">5821862ce80013107f44701a19dd1384</sys_scope>
+        <sys_scope_delete display_value="">40c4930143c6464aa6c33e52efebe051</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a7dff05fcc9013107f446411f31489e4</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a7dff05fcc9013107f446411f31489e4">42479557cc5413107f446411f314894c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-07 04:24:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
