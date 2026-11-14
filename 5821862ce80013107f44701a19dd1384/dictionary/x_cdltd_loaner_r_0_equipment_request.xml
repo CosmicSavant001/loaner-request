@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="54ce8261aca013107f44391343248707" extends="task" label="Equipment Request" max_length="40" name="x_cdltd_loaner_r_0_equipment_request" type="collection">
+        <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element choice="1" label="Equipment type" mandatory="true" max_length="255" name="equipment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monitor" sequence="1" value="monitor"/>
+                <element inactive_on_update="false" label="Headset" sequence="2" value="headset"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+            </choice>
+        </element>
+        <element label="Other equipment details" max_length="40" name="other_equipment_details" type="string"/>
+        <element label="Needed by" mandatory="true" max_length="255" name="needed_by" type="glide_date"/>
+    </element>
+</database>
